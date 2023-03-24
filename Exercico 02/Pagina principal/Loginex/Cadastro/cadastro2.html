@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  <link rel="stylesheet" href="style.css">
+</head> 
+<body><iframe src="header.html" frameborder="0"></iframe>
+    <body>
+        <FORM ACTION="mailto:digogo@gmail.com" METHOD="POST" ENCTYPE="text/plain" NAME="cadastro">
+            <p> Por favor, preencha os campos abaixo e depois clique no botão Enviar. Caso
+                necessite apagar os dados, dê um clique no botão Limpar.<br> Muito Obrigado!
+                <br><br><br> <hr>
+            </p>
+           <div class="nome"> Nome Completo: <INPUT TYPE="TEXT" NAME="nome" SIZE="35" placeholder="informe seu nome"> <br>
+            Seu e-mail: <INPUT TYPE="TEXT" NAME="email" SIZE="35" placeholder="informe seu email"> <br> <hr>  </div>
+            Sexo:<br>
+            <INPUT TYPE="RADIO" NAME="sexo" VALUE="f"> Feminino <br>
+            <INPUT TYPE="RADIO" NAME="sexo" VALUE="m"> Masculino <br><br> <hr>
+            Estado Civil:<br>
+            <INPUT TYPE="RADIO" NAME="civil" VALUE="s"> Solteiro <br>
+            <INPUT TYPE="RADIO" NAME="civil" VALUE="c"> Casado <br>
+            <INPUT TYPE="RADIO" NAME="civil" VALUE="e"> Namorando <br><br> <hr>
+            Bens que possui:<br>
+            <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="c"> Casa <br>
+            <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="a"> Automovel <br>
+            <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="m"> Moto <br><br> <hr>
+            Nivel de Moradia: <SELECT NAME="nivedemoradia"> 
+                <OPTION VALUE="Casa"> Casa
+                <OPTION VALUE="sitio"> Sitio
+                <OPTION VALUE="Apartamento"> Apartamento
+                <OPTION VALUE="Loft"> Loft
+               
+            </SELECT> <hr> 
+            Status do cadastro: <SELECT NAME="statuscadastro">
+                <OPTION VALUE="ativo"> Ativo
+                <OPTION VALUE="inativo"> Inativo
+            </SELECT><br><br>
+            Observações Gerais:<br>
+            <TEXTAREA NAME="observacoes" ROWS="5" COLS="60"></TEXTAREA><br>
+            <INPUT TYPE="SUBMIT" VALUE="Enviar os dados">
+            <INPUT TYPE="RESET" VALUE="Limpar os dados">
+        </FORM> 
+        <iframe src="footer.html" frameborder="0"></iframe>
+    </body>
+</body>
+</html>
